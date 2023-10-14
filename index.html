@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = (3)
+        var b = (5) 
+        var c = ("Sum of 3 and 5 is ")
+        var d = ("Sub of 3 and 5 is ")
+        var e = ("Multiplication of 3 and 5 is ")
+        var f = ("Division of 3 and 5 is ")
+        document.write(c+(a+b))
+        document.write("<br>")
+        document.write(d+(a-b))
+        document.write("<br>")
+        document.write(e+(a*b))
+        document.write("<br>")
+        document.write(f+(a/b))
+        document.write("<br>")
+        document.write("<br>")
+        var ticketP = (600)
+        var numOft = (5)
+    document.write("Total cost to buy " + numOft +"tickets to a  movie is " + (numOft*ticketP))
+    document.write("<br>")
+    document.write("<br>")
+var table = (6)
+document.write("Table of  " + table)
+document.write("<br>")
+    document.write(table + "x" + 1 + "=" + (table*1))
+    document.write("<br>")
+    document.write(table + "x" + 2 + "=" + (table*2))
+    document.write("<br>")
+    document.write(table + "x" + 3 + "=" + (table*3))
+    document.write("<br>")
+    document.write(table + "x" + 4 + "=" + (table*4))
+    document.write("<br>")
+    document.write(table + "x" + 5 + "=" + (table*5))
+    document.write("<br>")
+    document.write(table + "x" + 6 + "=" + (table*6))
+    document.write("<br>")
+    document.write(table + "x" + 7 + "=" + (table*7))
+    document.write("<br>")
+    document.write(table + "x" + 8 + "=" + (table*8))
+    document.write("<br>")
+    document.write(table + "x" + 9 + "=" + (table*9))
+document.write("<br>")
+    document.write(table + "x" + 10 + "=" + (table*10))
+    document.write("<br>")
+    document.write("<br>")
+var celsiusTemperature = 30;
+
+var fahrenheitTemperature = (celsiusTemperature * 9/5) + 32;
+document.write(celsiusTemperature + "°C is " + fahrenheitTemperature + "°F");
+
+
+var fahrenheitTemperature2 = 86; 
+
+var celsiusTemperature2 = (fahrenheitTemperature2 - 32) * 5/9;
+document.write(fahrenheitTemperature2 + "°F is " + celsiusTemperature2 + "°C");
+document.write("<br>")
+document.write("<br>")
+var priceItem1 = 25.99;
+var priceItem2 = 15.49;
+var quantityItem1 = 2;
+var quantityItem2 = 3; 
+var shippingCharges = 5.99;
+
+
+var totalCost = (priceItem1 * quantityItem1) + (priceItem2 * quantityItem2) + shippingCharges;
+
+document.write("<h2>Receipt</h2>");
+document.write("<p>Item 1 Price: Rs" + priceItem1 + "</p>");
+document.write("<p>Item 1 Quantity: " + quantityItem1 + "</p>");
+document.write("<p>Item 2 Price: Rs" + priceItem2 + "</p>");
+document.write("<p>Item 2 Quantity: " + quantityItem2 + "</p>");
+document.write("<p>Shipping Charges: Rs" + shippingCharges + "</p>");
+document.write("<p>Total Cost: Rs" + totalCost + "</p>");
+document.write("<br>")
+document.write("<br>")
+
+var totalMarks = 100;
+var marksObtained = 85;
+
+
+var percentage = (marksObtained / totalMarks) * 100;
+
+document.write("<h2>Percentage Calculation</h2>");
+document.write("<p>Total Marks: " + totalMarks + "</p>");
+document.write("<p>Marks Obtained: " + marksObtained + "</p>");
+document.write("<p>Percentage: " + percentage + "%</p>");
+
+document.write("<br>")
+document.write("<br>")
+
+var usDollars = 10;
+var saudiRiyals = 25;
+var exchangeRateUSD = 104.80;
+var exchangeRateSAR = 28;
+
+var totalInPKR = (usDollars * exchangeRateUSD) + (saudiRiyals * exchangeRateSAR);
+document.write("<h2>Currency in PKR</h2>");
+document.write("Total in Pakistani Rupees: " + totalInPKR + " PKR");
+document.write("<br>")
+document.write("<br>")
+
+var initialNumber = 8; 
+
+var result = ((initialNumber + 5) * 10) / 2;
+
+
+document.write("Result: " + result);
+document.write("<br>")
+document.write("<br>")
+
+
+var currentYear = new Date().getFullYear();
+var birthYear = 1999;
+
+var age1 = currentYear - birthYear;
+var age2 = age1 - 1; // In case their birthday hasn't occurred yet this year.
+
+document.write("<h2>Current age</h2>");
+document.write("They are either " + age1 + " or " + age2 + " years old.");
+document.write("<br>")
+document.write("<br>")
+
+var favoriteSnack = "chocolate bars"; 
+var currentAge = 24;
+var maximumAge = 90;
+var snacksPerDay = 2;
+
+var yearsRemaining = maximumAge - currentAge;
+var totalSnacks = yearsRemaining * 365 * snacksPerDay;
+document.write("<h2> The LifeTime Supply Calculator</h2>")
+document.write("You will need " + totalSnacks + " " + favoriteSnack + " to last you until the ripe old age of " + maximumAge + ".");
+
+
+
+
+
+
+    </script>
+</body>
+</html>
